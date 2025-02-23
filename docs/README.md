@@ -7,9 +7,9 @@ config:
     full: true
     background: tint-plate
     hero:
-      name: Theme Plume
-      tagline: VuePress Next Theme
-      text: 一个简约的，功能丰富的 vuepress 文档&博客 主题
+      name: 张祥振的博客
+      tagline: 
+      text: 自娱自乐而已
       actions:
         -
           theme: brand
@@ -17,6 +17,10 @@ config:
           link: /blog/
         -
           theme: alt
+          text: 早安新闻
+          link: https://zaoannews.vercel.app/
+        -
+          theme: alt
           text: Github →
-          link: https://github.com/pengzhanbo/vuepress-theme-plume
+          link: https://github.com/Jingzhenzxz
 ---

@@ -1,6 +1,6 @@
 import { defineThemeConfig } from 'vuepress-theme-plume'
-import { enNavbar, zhNavbar } from './navbar'
-import { enNotes, zhNotes } from './notes'
+import { zhNavbar } from './navbar'
+import { zhNotes } from './notes'
 
 /**
  * @see https://theme-plume.vuejs.press/config/basic/
@@ -11,7 +11,7 @@ export default defineThemeConfig({
   appearance: true,  // 配置 深色模式
 
   social: [
-    { icon: 'github', link: '/' },
+    { icon: 'github', link: 'https://github.com/Jingzhenzxz' },
   ],
   // navbarSocialInclude: ['github'], // 允许显示在导航栏的 social 社交链接
   // aside: true, // 页内侧边栏， 默认显示在右侧
@@ -47,7 +47,7 @@ export default defineThemeConfig({
        */
       profile: {
         avatar: 'https://theme-plume.vuejs.press/plume.png',
-        name: '景真',
+        name: '张祥振的博客',
         description: '自娱自乐而已',
         // circle: true,
         // location: '',
@@ -68,32 +68,32 @@ export default defineThemeConfig({
        //   content: '',
        // },
     },
-    '/en/': {
-      /**
-       * @see https://theme-plume.vuejs.press/config/basic/#profile
-       */
-      profile: {
-        avatar: 'https://theme-plume.vuejs.press/plume.png',
-        name: '景真',
-        description: '自娱自乐而已',
-        // circle: true,
-        // location: '',
-        // organization: '',
-      },
-
-      navbar: enNavbar,
-      notes: enNotes,
-
-      /**
-       * 公告板
-       * @see https://theme-plume.vuejs.press/guide/features/bulletin/
-       */
-       // bulletin: {
-       //   layout: 'top-right',
-       //   contentType: 'markdown',
-       //   title: '',
-       //   content: '',
-       // },
-    },
+    // '/en/': {
+    //   /**
+    //    * @see https://theme-plume.vuejs.press/config/basic/#profile
+    //    */
+    //   profile: {
+    //     avatar: 'https://theme-plume.vuejs.press/plume.png',
+    //     name: '张祥振的博客',
+    //     description: '自娱自乐而已',
+    //     // circle: true,
+    //     // location: '',
+    //     // organization: '',
+    //   },
+    //
+    //   navbar: enNavbar,
+    //   notes: enNotes,
+    //
+    //   /**
+    //    * 公告板
+    //    * @see https://theme-plume.vuejs.press/guide/features/bulletin/
+    //    */
+    //    // bulletin: {
+    //    //   layout: 'top-right',
+    //    //   contentType: 'markdown',
+    //    //   title: '',
+    //    //   content: '',
+    //    // },
+    // },
   },
 })

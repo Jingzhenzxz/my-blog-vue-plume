@@ -7,13 +7,8 @@ export default defineUserConfig({
   lang: 'zh-CN',
   locales: {
     '/': {
-      title: '景真',
+      title: '张祥振的博客',
       lang: 'zh-CN',
-      description: '自娱自乐而已',
-    },
-    '/en/': {
-      title: '景真',
-      lang: 'en-US',
       description: '自娱自乐而已',
     },
   },
@@ -28,7 +23,7 @@ export default defineUserConfig({
 
   theme: plumeTheme({
     /* 添加您的部署域名, 有助于 SEO, 生成 sitemap */
-    // hostname: 'https://your_site_url',
+    hostname: 'https://xzzhang-blog.vercel.app/',
 
     /* 文档仓库配置，用于 editLink */
     // docsRepo: '',
@@ -79,13 +74,13 @@ export default defineUserConfig({
        * Shiki 代码高亮
        * @see https://theme-plume.vuejs.press/config/plugins/code-highlight/
        */
-      // shiki: {
-      //   // 强烈建议预设代码块高亮语言，插件默认加载所有语言会产生不必要的时间开销
-      //   languages: ['shell', 'bash', 'typescript', 'javascript'],
-      //   twoslash: true, // 启用 twoslash
-      //   whitespace: true, // 启用 空格/Tab 高亮
-      //   lineNumbers: true, // 启用行号
-      // },
+      shiki: {
+        // 强烈建议预设代码块高亮语言，插件默认加载所有语言会产生不必要的时间开销
+        languages: ['java', 'shell', 'bash', 'javascript'],
+        twoslash: true, // 启用 twoslash
+        whitespace: false, // 启用 空格/Tab 高亮
+        lineNumbers: true, // 启用行号
+      },
 
       /* 本地搜索, 默认启用 */
       // search: true,

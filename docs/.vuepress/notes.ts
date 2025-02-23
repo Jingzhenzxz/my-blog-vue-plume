@@ -8,23 +8,35 @@ const zhDemoNote = defineNoteConfig({
   sidebar: ['', 'foo', 'bar'],
 })
 
+// const zhAlgorithmNote = defineNoteConfig({
+//   dir: 'algorithm',
+//   link: '/notes/algorithm/',
+//   sidebar: 'auto'
+// })
+
+// const zhJavaNote = defineNoteConfig({
+//   dir: 'java',
+//   link: '/notes/java/',
+//   sidebar: 'auto'
+// })
+
 export const zhNotes = defineNotesConfig({
   dir: 'notes',
   link: '/',
-  notes: [zhDemoNote],
+  notes: [],
 })
 
 /* =================== locale: en-US ======================= */
 
-const enDemoNote = defineNoteConfig({
-  dir: 'demo',
-  link: '/demo',
-  sidebar: ['', 'foo', 'bar'],
-})
+// const enDemoNote = defineNoteConfig({
+//   dir: 'demo',
+//   link: '/demo',
+//   sidebar: ['', 'foo', 'bar'],
+// })
 
-export const enNotes = defineNotesConfig({
-  dir: 'en/notes',
-  link: '/en/',
-  notes: [enDemoNote],
-})
+// export const enNotes = defineNotesConfig({
+//   dir: 'en/notes',
+//   link: '/en/',
+//   notes: [enDemoNote],
+// })
 
