@@ -1,7 +1,7 @@
 ---
 title: GC
 createTime: 2025/02/23 19:09:24
-permalink: /notes/java/ic5c64yi/
+permalink: /article/ic5c64yi/
 ---
 
 ## Java 对象的定位方式

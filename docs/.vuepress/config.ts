@@ -23,7 +23,7 @@ export default defineUserConfig({
 
   theme: plumeTheme({
     /* 添加您的部署域名, 有助于 SEO, 生成 sitemap */
-    hostname: 'https://xzzhang-blog.vercel.app/',
+    hostname: 'https://jingzhen.vercel.app/',
 
     /* 文档仓库配置，用于 editLink */
     // docsRepo: '',
